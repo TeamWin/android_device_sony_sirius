@@ -47,4 +47,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/sirius/sirius-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/sirius/sirius-vendor.mk)
