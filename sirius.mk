@@ -79,7 +79,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-dalv
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/sirius/sirius-vendor.mk)
+$(call inherit-product, vendor/sony/sirius-caf/sirius-vendor.mk)
 
 # TWRP
 $(call inherit-product, device/sony/sirius/twrp.mk)
