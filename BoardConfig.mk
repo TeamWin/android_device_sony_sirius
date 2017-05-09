@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # inherit from the common shinano definitions
-include device/sony/shinano-common/BoardConfigCommon.mk
+include device/sony/shinano-common/BoardConfigCommonOmni.mk
 
 # inherit from the proprietary version
 #-include vendor/sony/sirius/BoardConfigVendor.mk
