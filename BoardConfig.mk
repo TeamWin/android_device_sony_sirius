@@ -40,6 +40,3 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/max1187x/wakeup_gesture"
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/sony/sirius/sepolicy
-
-# TWRP
-TARGET_RECOVERY_DEVICE_MODULES += twrp.fstab

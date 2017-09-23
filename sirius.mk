@@ -72,6 +72,3 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwu
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/sirius-caf/sirius-vendor.mk)
-
-# TWRP
-$(call inherit-product, device/sony/sirius/twrp.mk)
