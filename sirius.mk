@@ -56,8 +56,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.use_data_netmgrd=true
    
 # NFC
-PRODUCT_PACKAGES += nfc_nci.sirius
-ADDITIONAL_DEFAULT_PROPERTIES += ro.hardware.nfc_nci=sirius
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
    $(LOCAL_PATH)/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
